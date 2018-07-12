@@ -14,3 +14,14 @@ Note: If you get errors on package 'requests' then use this:
 
 ##Install kafka-python:
 <code>pip install kafka-python</code>
+
+##Create Kafka Topic:
+<code>/usr/bin/kafka-topics --zookeeper rr-cdh-11.vpc.cloudera.com:2181 --create --replication-factor 1 --partitions 1 --topic twitterstream
+</code>
+
+##List Existing Kafka Topics:
+<code>/usr/bin/kafka-topics --zookeeper rr-cdh-11.vpc.cloudera.com:2181 --list</code>
+
+##Read Kafka Stream
+<code>/usr/bin/kafka-console-consumer --zookeeper rr-cdh-11.vpc.cloudera.com:2181 --topic twitterstream --from-beginning
+</code>
