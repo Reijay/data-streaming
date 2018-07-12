@@ -3,13 +3,14 @@
 
 ## Install Pip
 
-Download Pip:
+##Download Pip:
 wget https://bootstrap.pypa.io/get-pip.py
 
-Install Tweepy:
-pip install tweepy
+##Install Tweepy:
+<code>pip install tweepy</code>
 
 Note: If you get errors on package 'requests' then use this:
-pip install tweepy --ignore-installed requests
+<code>pip install tweepy --ignore-installed requests</code>
 
-pip install kafka-python
+##Install kafka-python:
+<code>pip install kafka-python</code>
